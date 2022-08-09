@@ -1,0 +1,4 @@
+// SNT Address
+const SNT_ADDRESS = '0x657a66332A65B535Da6C5d67b8cD1D410c161a08'
+
+export { SNT_ADDRESS }

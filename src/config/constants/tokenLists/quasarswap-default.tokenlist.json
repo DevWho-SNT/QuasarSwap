@@ -1,0 +1,54 @@
+{
+  "name": "Quasarswap D List",
+  "timestamp": "2022-01-26T11:45:09Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "Wrapped SuperNova Token",
+      "symbol": "WSNT",
+      "address": "0x657a66332A65B535Da6C5d67b8cD1D410c161a08",
+      "chainId": 87,
+      "decimals": 18,
+      "logoURI": "https://quasarswap-app.herokuapp.com/images/tokens/0x657a66332A65B535Da6C5d67b8cD1D410c161a08.svg"
+    },
+    {
+      "name": "QuasarSwap Token",
+      "symbol": "QSR",
+      "address": "0x356c044B99e9378C1B28A1cAb2F95Cd65E877F33",
+      "chainId": 87,
+      "decimals": 18,
+      "logoURI": "https://quasarswap-app.herokuapp.com/images/tokens/0x8A6bb6A11333FaA3E80607a915849403191B915c.svg"
+    },
+    {
+      "name": "nUSD",
+      "symbol": "nUSD",
+      "address": "0x1F5396f254EE25377A5C1b9c6BfF5f44e9294fFF",
+      "chainId": 87,
+      "decimals": 6,
+      "logoURI": "https://quasarswap-app.herokuapp.com/images/tokens/0x1F5396f254EE25377A5C1b9c6BfF5f44e9294fFF.png"
+    },
+    {
+      "name": "TestCoin 2",
+      "symbol": "TSTC2",
+      "address": "0xc08E4419402d88043de87f8F62f23Ef0eFFfAa00",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51.png"
+    },
+    {
+      "name": "Alpaca",
+      "symbol": "ALPACA",
+      "address": "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F.png"
+    }
+  ]
+}

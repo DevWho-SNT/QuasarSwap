@@ -1,0 +1,70 @@
+{
+  "name": "Quasarswap D List",
+  "timestamp": "2022-01-26T11:45:09Z",
+  "version": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "WSNT Token",
+      "symbol": "WSNT",
+      "address": "0x4440b01Ec3F552c109cf639CC8935264C2f705E1",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "QuasarSwap Token",
+      "symbol": "QSR",
+      "address": "0x95F59266C18a5F2A7e3d8A2B6dd5A3ADc5035cFD",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/qsr-logo.jpeg"
+    },
+    {
+      "name": "Fake USD",
+      "symbol": "fUSD",
+      "address": "0xa608d517357433Ba1985932EB5d61B605a4aF7BB",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "http://localhost:3000/qsr-logo.jpeg"
+    },
+    {
+      "name": "GaboCoin",
+      "symbol": "GBC",
+      "address": "0x9c27e348B710849f5EF3f99bDb8f89b62EE3075e",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63.png"
+    },
+    {
+      "name": "TestCoin 1",
+      "symbol": "TSTC1",
+      "address": "0x516558FF21Bfc1E738a2329b4Fb883D0829109c5",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7.png"
+    },
+    {
+      "name": "TestCoin 2",
+      "symbol": "TSTC2",
+      "address": "0xc08E4419402d88043de87f8F62f23Ef0eFFfAa00",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51.png"
+    },
+    {
+      "name": "Alpaca",
+      "symbol": "ALPACA",
+      "address": "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
+      "chainId": 107,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F.png"
+    }
+  ]
+}
