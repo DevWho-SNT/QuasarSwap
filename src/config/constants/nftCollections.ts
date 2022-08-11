@@ -24,6 +24,15 @@ export const mainnetNFTs = defineNFTs({
     'Quasar Launch Badges',  // Name 
     'https://quasarswap.net/',   // projectLink
   ),
+  nmc: new NFT(
+    MAINNET,   // ChainID
+    '0x2342aa975d7a775e5a1342410a3ffb7068cf43a8',   // Address
+    1,    // ID
+    'ipfs://QmSSTmQsUpLGiYydiMaSTivYgL11zFxkukpVQdZmajYKJ2/', // BaseURI
+    'NMC', // Symbol
+    'Nova Mutant Chimps',  // Name 
+    'https://novanetwork.io/',   // projectLink
+  ),
 } as const)
 
 export const testnetNFTs = defineNFTs({
