@@ -34,6 +34,10 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
        label: t('Pools'),
        href: '/pools', 
      },
+     {
+      label: t('NFT Staking'),
+      href: '/nftstake', 
+    },
      
     //  {
     //   label: t('Stake NFT'),
