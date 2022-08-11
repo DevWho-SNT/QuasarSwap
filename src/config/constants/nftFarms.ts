@@ -13,32 +13,19 @@ const serializedTokens = serializeTokens()
 */
 
 const nftFarms: SerializedNFTFarmConfig[] = [
-  {
-    pid: 2,
-    colSymbol: 'hak',
-    colName: 'hackers',
-    colAddresses: {
-      107: '0x398799Ce97f646d146988E6A5F796b6131bBAf27',
-      87: '0x398799Ce97f646d146988E6A5F796b6131bBAf27',
-    },
-    collection: serializedNFTs.hackers,
-    earningToken: serializedTokens.cake,
-    stakingFee: 1,
-    harvestingFee: 1,
-    image: './QuasarBanner.png'
-  },
+ 
   {
     pid: 0,
     colSymbol: 'QLB',
     colName: 'Quasar Launch',
     colAddresses: {
-      107: '0x5167252AE366fD6E7dEEDa43C5e76387BC25aa57',
-      87: '0x5167252AE366fD6E7dEEDa43C5e76387BC25aa57',
+      107: '0x7116F61094BC91c15Aef3Ef14A94144a05692784',
+      87: '0x7116F61094BC91c15Aef3Ef14A94144a05692784',
     },
     collection: serializedNFTs.qlb,
     earningToken: serializedTokens.cake,
-    stakingFee: 1,
-    harvestingFee: 1,
+    stakingFee: 2,
+    harvestingFee: 2,
     image: 'https://operahouse.mypinata.cloud/ipfs/QmRCx62NAB76mamRWdvzDiJcNgaTnKZ4twnbAgtaDNLaz1'
   },
 

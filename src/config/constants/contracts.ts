@@ -4,7 +4,7 @@ export default {
     107: '0xD46094958D6b17d00Dc1926F910DaDbe32988E4a',
   },
   pulsar: {
-    87: '0x815a175859C0A7DCa4D5f7a1B2628d2f67ce9014',
+    87: '0x6e36726917525ECd7677f2C200330Fe86895bD5D',
     107: '0x6ab8463a4185b80905e05a9ff80a2d6b714b9e95',
   },
   sousChef: {

@@ -14,23 +14,15 @@ const defineNFTs = <T extends NFTList>(t: T) => t
 // Just need to copy this first one as a template and change the values
 
 export const mainnetNFTs = defineNFTs({
-  hackers: new NFT(
-    MAINNET,   // ChainID
-    '0x398799Ce97f646d146988E6A5F796b6131bBAf27',   // Address
-    18,    // ID
-    'https://gateway.pinata.cloud/ipfs/QmP1Cg7fMQ7bhv2DTvfMuFMoYKs6UYvz9FgYQh6XkhcnFp/', // BaseURI
-    'hak', // Symbol
-    'hackers',  // Name 
-    'https://novanetwork.io/',   // projectLink
-  ),
+
   qlb: new NFT(
     MAINNET,   // ChainID
-    '0x5167252AE366fD6E7dEEDa43C5e76387BC25aa57',   // Address
+    '0x7116F61094BC91c15Aef3Ef14A94144a05692784',   // Address
     1,    // ID
-    'https://gateway.pinata.cloud/ipfs/Qmb1AyMhpy9tdwfW36W9VNF1mpLVdNdPJiYPLm4FB9YKGd/', // BaseURI
+    'ipfs://Qmb1AyMhpy9tdwfW36W9VNF1mpLVdNdPJiYPLm4FB9YKGd/', // BaseURI
     'QLB', // Symbol
     'Quasar Launch Badges',  // Name 
-    'https://quasarswap.xyz/',   // projectLink
+    'https://quasarswap.net/',   // projectLink
   ),
 } as const)
 
