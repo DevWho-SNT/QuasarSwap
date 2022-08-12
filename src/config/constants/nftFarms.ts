@@ -26,7 +26,7 @@ const nftFarms: SerializedNFTFarmConfig[] = [
     earningToken: serializedTokens.cake,
     stakingFee: 2,
     harvestingFee: 2,
-    image: 'https://gateway.pinata.cloud/ipfs/QmWNRPYDCA7A1kXPdGrEjc5aCbEqUuWCnuw1ftWc8qjeVN'
+    image: 'https://gateway.ipfs.io/ipfs/QmWNRPYDCA7A1kXPdGrEjc5aCbEqUuWCnuw1ftWc8qjeVN'
   },
   {
     pid: 1,
