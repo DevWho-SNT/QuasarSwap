@@ -13,33 +13,34 @@ const serializedTokens = serializeTokens()
 */
 
 const nftFarms: SerializedNFTFarmConfig[] = [
-  {
-    pid: 2,
-    colSymbol: 'hak',
-    colName: 'hackers',
-    colAddresses: {
-      107: '0x398799Ce97f646d146988E6A5F796b6131bBAf27',
-      87: '0x398799Ce97f646d146988E6A5F796b6131bBAf27',
-    },
-    collection: serializedNFTs.hackers,
-    earningToken: serializedTokens.cake,
-    stakingFee: 1,
-    harvestingFee: 1,
-    image: './QuasarBanner.png'
-  },
+ 
   {
     pid: 0,
-    colSymbol: 'QLB',
+    colSymbol: 'Launch Badges',
     colName: 'Quasar Launch',
     colAddresses: {
-      107: '0x5167252AE366fD6E7dEEDa43C5e76387BC25aa57',
-      87: '0x5167252AE366fD6E7dEEDa43C5e76387BC25aa57',
+      107: '0x7116F61094BC91c15Aef3Ef14A94144a05692784',
+      87: '0x7116F61094BC91c15Aef3Ef14A94144a05692784',
     },
     collection: serializedNFTs.qlb,
     earningToken: serializedTokens.cake,
-    stakingFee: 1,
-    harvestingFee: 1,
-    image: 'https://operahouse.mypinata.cloud/ipfs/QmRCx62NAB76mamRWdvzDiJcNgaTnKZ4twnbAgtaDNLaz1'
+    stakingFee: 2,
+    harvestingFee: 2,
+    image: 'https://gateway.pinata.cloud/ipfs/QmWNRPYDCA7A1kXPdGrEjc5aCbEqUuWCnuw1ftWc8qjeVN'
+  },
+  {
+    pid: 1,
+    colSymbol: 'Nova Mutant Chimps',
+    colName: 'Nova Mutant Chimps',
+    colAddresses: {
+      107: '0x2342aa975d7a775e5a1342410a3ffb7068cf43a8',
+      87: '0x2342aa975d7a775e5a1342410a3ffb7068cf43a8',
+    },
+    collection: serializedNFTs.nmc,
+    earningToken: serializedTokens.cake,
+    stakingFee: 2,
+    harvestingFee: 2,
+    image: 'https://operahouse.mypinata.cloud/ipfs/'
   },
 
   
