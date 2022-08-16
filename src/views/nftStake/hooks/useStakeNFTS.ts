@@ -58,7 +58,10 @@ const useStakeNFTs = (): {
       .then(response => {
         if (response && response.result) {
           const ERC721tokens = response.data.map(function(token) {
-            const metadata = JSON.parse(token.metadata)
+            let metadata
+            try {
+              metadata = JSON.parse(token.metadata)
+            } catch {}
             return { ...token, ...metadata };
           })
 
