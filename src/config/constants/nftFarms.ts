@@ -28,20 +28,20 @@ const nftFarms: SerializedNFTFarmConfig[] = [
     harvestingFee: 2,
     image: 'https://ipfs.io/ipfs/QmWNRPYDCA7A1kXPdGrEjc5aCbEqUuWCnuw1ftWc8qjeVN'
   },
-  {
-    pid: 1,
-    colSymbol: 'Nova Mutant Chimps',
-    colName: 'Nova Mutant Chimps',
-    colAddresses: {
-      107: '0x2342aa975d7a775e5a1342410a3ffb7068cf43a8',
-      87: '0x2342aa975d7a775e5a1342410a3ffb7068cf43a8',
-    },
-    collection: serializedNFTs.nmc,
-    earningToken: serializedTokens.cake,
-    stakingFee: 2,
-    harvestingFee: 2,
-    image: 'https://operahouse.mypinata.cloud/ipfs/'
-  },
+  // {
+  //   pid: 1,
+  //   colSymbol: 'Nova Mutant Chimps',
+  //   colName: 'Nova Mutant Chimps',
+  //   colAddresses: {
+  //     107: '0x2342aa975d7a775e5a1342410a3ffb7068cf43a8',
+  //     87: '0x2342aa975d7a775e5a1342410a3ffb7068cf43a8',
+  //   },
+  //   collection: serializedNFTs.nmc,
+  //   earningToken: serializedTokens.cake,
+  //   stakingFee: 2,
+  //   harvestingFee: 2,
+  //   image: 'https://operahouse.mypinata.cloud/ipfs/'
+  // },
 
   
 
